@@ -7,3 +7,5 @@
  */
 
 define('REF_TOKEN',"2A20F50D2AA9");
+define('WIDTH_PX',"324px");
+define('HEIGHT_PX',"470px");

@@ -19,33 +19,33 @@ if (isset($_REQUEST['coin'])){
     switch ($coin){
 
         case "bitcoin";
-            BIT_COIN_CORE();
+            BIT_COIN_CORE($ref);
         break;
 
         case "bitcash";
-            bit_coin_core();
+            bit_coin_core($ref);
         break;
 
         case"dogecoin";
-            DOG_E_COIN();
+            DOG_E_COIN($ref);
         break;
 
         case"litecoin";
-            LITE_COIN();
+            LITE_COIN($ref);
         break;
 
         case"dash";
-            DASH();
+            DASH($ref);
         break;
 
         case"coinpot";
-            COIN_POT_TOKENS();
+            COIN_POT_TOKENS($ref);
         break;
 
         default:
-            $data = ['status'=>'100', 'token'=> uniqid().'-F9'];
+            $data = ['status'=>'100', 'token'=> uniqid($ref).'-F9'];
             header("Content-type: application/json; charset=utf-8");
             echo json_encode($data);
     }
 }
-?>
+

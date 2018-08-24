@@ -5,39 +5,40 @@
  * Date: 24/08/2018
  * Time: 7:02 AM
  */
+$ref = REF_TOKEN;
 
-function COIN_POT_TOKENS(){
+function COIN_POT_TOKENS($ref){
     echo"
-    <iframe scrolling=\"no\" frameborder=\"0\" src=\"https://coinpot.co/mine/coinpottokens/?ref=2A20F50D2AA9&mode=widget\" style=\"overflow:hidden;width:324px;height:470px;\"></iframe>
+    <iframe scrolling='no' frameborder='0' src='https://coinpot.co/mine/coinpottokens/?ref={$ref}&mode=widget' style='overflow:hidden;width:324px;height:470px;'></iframe>
     ";
 }
 
-function bit_coin_core(){
+function BIT_COIN_CORE($ref){
     echo"
-    <iframe scrolling=\"no\" frameborder=\"0\" src=\"https://coinpot.co/mine/bitcoin/?ref=2A20F50D2AA9&mode=widget\" style=\"overflow:hidden;width:324px;height:470px;\"></iframe>
+    <iframe scrolling='no' frameborder='0' src='https://coinpot.co/mine/bitcoin/?ref={$ref}&mode=widget' style='overflow:hidden;width:324px;height:470px;'></iframe>
     ";
 }
 
-function BIT_COIN_CASH(){
+function BIT_COIN_CASH($ref){
     echo"
-    <iframe scrolling=\"no\" frameborder=\"0\" src=\"https://coinpot.co/mine/bitcoincash/?ref=2A20F50D2AA9&mode=widget\" style=\"overflow:hidden;width:324px;height:470px;\"></iframe>
+    <iframe scrolling='no' frameborder='0' src='https://coinpot.co/mine/bitcoincash/?ref={$ref}&mode=widget' style='overflow:hidden;width:324px;height:470px;'></iframe>
     ";
 }
 
-function DOG_E_COIN(){
+function DOG_E_COIN($ref){
     echo"
-    <iframe scrolling=\"no\" frameborder=\"0\" src=\"https://coinpot.co/mine/dogecoin/?ref=2A20F50D2AA9&mode=widget\" style=\"overflow:hidden;width:324px;height:470px;\"></iframe>
+    <iframe scrolling='no' frameborder='0' src='https://coinpot.co/mine/dogecoin/?ref={$ref}&mode=widget' style='overflow:hidden;width:324px;height:470px;'></iframe>
     ";
 }
 
-function LITE_COIN(){
+function LITE_COIN($ref){
     echo"
-    <iframe scrolling=\"no\" frameborder=\"0\" src=\"https://coinpot.co/mine/litecoin/?ref=2A20F50D2AA9&mode=widget\" style=\"overflow:hidden;width:324px;height:470px;\"></iframe>
+    <iframe scrolling='no' frameborder='0' src='https://coinpot.co/mine/litecoin/?ref={$ref}&mode=widget' style='overflow:hidden;width:324px;height:470px;'></iframe>
     ";
 }
 
-function DASH(){
+function DASH($ref){
     echo"
-    <iframe scrolling=\"no\" frameborder=\"0\" src=\"https://coinpot.co/mine/dash/?ref=2A20F50D2AA9&mode=widget\" style=\"overflow:hidden;width:324px;height:470px;\"></iframe>
+    <iframe scrolling='no' frameborder='0' src='https://coinpot.co/mine/dash/?ref={$ref}&mode=widget' style='overflow:hidden;width:324px;height:470px;'></iframe>
     ";
 }
