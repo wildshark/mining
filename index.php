@@ -7,7 +7,7 @@
  */
 
 include_once "setup.inc";
-include_once "function.module";
+include_once "miner/function.module";
 
 if (isset($_REQUEST['coin'])){
     if (isset($_GET['coin'])){
