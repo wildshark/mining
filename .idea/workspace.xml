@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0960dde7-0eee-49a3-8870-402aad3b2ee5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/miner/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.inc" beforeDir="false" afterPath="$PROJECT_DIR$/miner/setup.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hashes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mbr-1-1920x1245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mbr-1080x720.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +32,7 @@
             <entry file="file://$PROJECT_DIR$/miner/setup.inc">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="51">
-                  <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -40,7 +41,7 @@
             <entry file="file://$PROJECT_DIR$/miner/function.module">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="629">
-                  <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+                  <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
                   <folding>
                     <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
@@ -61,7 +62,7 @@
             <entry file="file://$PROJECT_DIR$/miner/function.module">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="493">
-                  <caret line="34" column="126" lean-forward="true" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
+                  <caret line="34" column="126" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
                   <folding>
                     <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
                   </folding>
@@ -120,11 +121,6 @@
               <item name="mining" type="b2602c69:ProjectViewProjectNode" />
               <item name="mining" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mining" type="462c0819:PsiDirectoryNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -165,16 +161,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535090469322</updated>
-      <workItem from="1535090473938" duration="3980000" />
+      <workItem from="1535090473938" duration="5322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3980000" />
+    <option name="totallyTimeSpent" value="5322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934947" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991454" />
@@ -211,7 +206,7 @@
     <entry file="file://$PROJECT_DIR$/miner/function.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
@@ -226,7 +221,7 @@
     <entry file="file://$PROJECT_DIR$/miner/setup.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
