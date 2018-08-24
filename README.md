@@ -17,3 +17,5 @@ HTTP GET OR POST
 URL : https://coinshark.herokuapp.com/?coin=
 
 Peremeter any of the follow bitcion, litecoin, dash and dogecoin
+
+eg: https://coinshark.herokuapp.com/?coin=bitcon
