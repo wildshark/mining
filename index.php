@@ -6,7 +6,7 @@
  * Time: 7:01 AM
  */
 
-
+include_once "setup.inc";
 include_once "miner/function.module";
 
 if (isset($_REQUEST['coin'])){
@@ -41,12 +41,11 @@ if (isset($_REQUEST['coin'])){
         case"coinpot";
             COIN_POT_TOKENS();
         break;
+
+        default:
+            $data = ['status'=>'100', 'token'=> uniqid().'-F9'];
+            header("Content-type: application/json; charset=utf-8");
+            echo json_encode($data);
     }
 }
 ?>
-
-<html>
-    <head>
-        <title>Coin</title>
-    </head>
-</html>

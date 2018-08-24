@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0960dde7-0eee-49a3-8870-402aad3b2ee5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miner/function.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,17 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="501">
-                  <caret line="51" selection-start-line="51" selection-end-line="51" />
+                <state relative-caret-position="317">
+                  <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="setup.inc" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/setup.inc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +59,11 @@
           <file leaf-file-name="function.module" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/miner/function.module">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="14" column="24" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="24" />
+                <state relative-caret-position="493">
+                  <caret line="34" column="126" lean-forward="true" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
+                  <folding>
+                    <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -66,6 +79,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/inc/function.module" />
+        <option value="$PROJECT_DIR$/setup.inc" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -83,9 +97,9 @@
     <servers />
   </component>
   <component name="PhpTemplates">
-    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="module" />
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1475" />
     <option name="y" value="-16" />
     <option name="width" value="1366" />
@@ -103,11 +117,6 @@
             <path>
               <item name="mining" type="b2602c69:ProjectViewProjectNode" />
               <item name="mining" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mining" type="462c0819:PsiDirectoryNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535090469322</updated>
-      <workItem from="1535090473938" duration="2037000" />
+      <workItem from="1535090473938" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2037000" />
+    <option name="totallyTimeSpent" value="3266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -202,10 +211,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="317">
+          <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
         </state>
       </provider>
     </entry>
